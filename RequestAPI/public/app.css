@@ -1,0 +1,32 @@
+body{
+    margin: 50px 0px auto auto;
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+hr{
+    margin: 0 auto;
+}
+#book-list, #book-list p, #book-list p{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#book-list > li{
+    float: left;
+    margin-right: 50px;
+    width: 120px;
+}
+#book-list > li > .poster{
+    display:block;
+    float: left;
+    margin-right: 0px;
+}
+#book-list > li > .poster,
+#book-list > li > .poster > img{
+    width: 100%;
+    height: 100%;
+}
